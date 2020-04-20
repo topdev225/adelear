@@ -1,0 +1,11 @@
+# Ignore dependencies
+node_modules
+
+# Ignore build directory
+dist/
+
+# Ignore OS files
+*.DS_Store
+
+# Ignore all local backups
+*.bak.*

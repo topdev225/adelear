@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "paths": {
+      "@AppFrame": ["./src/app-frame/index"],
+      "@Components": ["./src/components/index"],
+      "@Contexts": ["./src/contexts/index"],
+      "@Icons": ["./src/icons/index"],
+      "@Pages": ["./src/pages/index"],
+      "@Theme": ["./src/styles/theme"],
+      "@Utils": ["./src/utility-functions/index"],
+      "@Store": ["./src/store"],
+      "@Modules": ["./src/modules"],
+      "@Hooks": ["./src/hooks"],
+      "@Types": ["./src/types"]
+    },
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    // "strictNullChecks": true,
+    "target": "es5"
+  },
+  "include": ["./src/**/**/*"]
+}
